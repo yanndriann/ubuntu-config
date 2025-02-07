@@ -25,7 +25,7 @@ sleep 2
 
 echo "Update dan install paket yang diperlukan..."
 apt update -y
-apt install -y bind9 apache2 php php-mysql mariadb-server unzip
+apt install -y bind9 apache2 php php-mysql php-cli php-cgi php-gd mariadb-server unzip -y
 
 echo "Mengonfigurasi BIND9..."
 cd /etc/bind
